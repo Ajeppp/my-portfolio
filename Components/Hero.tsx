@@ -1,5 +1,5 @@
 import React from 'react'
-// import Particle from "./Particle"
+import Particle from "./Particle"
 import SkillText from './TextEffect'
 import Image from 'next/image'
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
@@ -7,7 +7,7 @@ import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 const Hero = () => {
     return (
         <div className="h-[88vh] bg-[#F8DDC9]">
-            {/* <Particle /> */}
+            <Particle />
             <div className='sticky z-[9000] w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                 <div>
                     <h1 className='text-[35px] md:text-[48px] font-bold'>
