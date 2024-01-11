@@ -15,7 +15,7 @@ const SkillText = () => {
                     1000,
                 ]}
                 speed={50}
-                className='text-[2rem] md:text-[2.8rem] text-[#006A9F] font-bold uppercase'
+                className='text-[2rem] md:text-[2.8rem] text-[#0B92D1] font-bold uppercase'
                 repeat={Infinity}
             />
         </div>

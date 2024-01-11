@@ -1,7 +1,8 @@
 import Hero from '@/Components/Hero'
 import MobileNav from '@/Components/MobileNav'
 import NavBar from '@/Components/NavBar'
-import React from 'react'
+import Project from '@/Components/Project'
+import React, { use, useEffect } from 'react'
 
 const HomePage = () => {
 
@@ -17,6 +18,9 @@ const HomePage = () => {
                 <NavBar openNav={openNav} />
                 {/* Hero Section */}
                 <Hero />
+                {/* <div>
+                    <Project />
+                </div> */}
             </div>
         </div>
     )
